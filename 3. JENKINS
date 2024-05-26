@@ -54,9 +54,6 @@ Build Steps -- > add setp -- > Execute shell -- > save
 
 ================================================================================================================================================
 07-09-2023:
-
-
-
 PARAMETERS: used to pass input for the jobs
 choice: when we have multiple options we can select one
 
@@ -66,7 +63,6 @@ string: to pass multiple inputs
 multi line string: to pass input on multiple lines
 bool: ture of false
 file: to build files
-
 
 PORT CHANGING:
 vim /usr/lib/systemd/system/jenkins.service
