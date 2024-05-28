@@ -89,6 +89,7 @@ when we stop and start server your ip will change and the services inside server
 
 
 RESTORING DELETE JOBS:
+Plugin : Job Configuration History
 
 Dashboard -- > Manage Jenkins -- > Plugins -- > available plugins -- > Job Configuration History -- > install -- > go back to top page
 
