@@ -1,3 +1,4 @@
+Day 1:
 MONOLITHIC: SINGLE APP -- > SINGLE SERVER -- > SINGLE DATABASE
 MICRO SERVICES: SINGLE APP -- > MULTIPLE SERVERS -- > MULTIPLE DATABASES
 
@@ -5,10 +6,8 @@ MICRO:
 COST WILL BE HIGH
 MAINTAINANCE
 
-
 LIMITATIONS OF MONLITHIC:
 1. SERVER PERFOMANCE
-
 
 CONTAINERS:
 SERVER = CONTAINER
@@ -22,6 +21,7 @@ images: inside the image we have os and packages
 image (os) -- > conatiner (app)
 
 VIRTUALIZATION: process of utilizing hardware resources in better.
+
 CONTAINERIZATION: process of packing application with its dependencies
 APP: PUBG DEPENDENCY: MAPS
 
@@ -53,9 +53,13 @@ yum install docker -y
 systemctl start docker
 systemctl status docker
 
-
+docker version
 docker pull amazonlinux		: to downlaod image
 docker run -it --name cont1 amazonlinux : to create conatiner
+
+
+lsbk = list block storage device
+du -sh 
 
 yum install git -y
 yum install maven -y
