@@ -19,9 +19,7 @@ cant able to deploy the app.
 images: inside the image we have os and packages
 
 image (os) -- > conatiner (app)
-
 VIRTUALIZATION: process of utilizing hardware resources in better.
-
 CONTAINERIZATION: process of packing application with its dependencies
 APP: PUBG DEPENDENCY: MAPS
 
@@ -99,6 +97,7 @@ HISTORY:
    22  docker kill cont1
    23  history
 =============================================================================================
+Day 2:
 
 OS LEVEL VIRTUALIZATION:
 
@@ -115,13 +114,11 @@ apt update -y
 apt install git maven apache2 tree -y
 touch file{1..5}
 
-docker commit cont1 raham
+docker commit cont1 raham : creating image from running  container
 docker run -it --name cont2 raham
 
 check version now
-
-
-
+---------------------------------------
 DOCKERFILE:
 its a way of creating images automatically.
 we can reuse the docker file for multiple times.
@@ -150,7 +147,6 @@ EX: -1
 FROM ubuntu
 RUN apt update -y
 RUN apt install git maven tree apache2 -y
-
 Build : docker build -t netflix:v1 .
 cont: docker run -it --name cont3 netflix:v1
 
