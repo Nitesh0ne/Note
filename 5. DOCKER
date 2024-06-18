@@ -281,7 +281,6 @@ volume is nothing but a folder inside a container.
 we can share a volume from one container to another.
 the volume contains the files which have data.
 we can attach the single volume to multiple containers.
-but at a time we can attach only one volume to one container.
 volumes are decoupled (loosely attached)
 if we delete the container volume will not be deleted.
 
@@ -423,12 +422,6 @@ HISTORY:
    68  docker system events
    69  docker run -it --name cont1 -p 8080:8080 jenkins/jenkins:lts
    70  history
-[root@ip-172-31-12-122 ~]#
-====================================================================LINK: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_form_icon
-
-PROCESS: 
-CODE -- > BUILD (DOCKER FILE) -- > IMAGE -- > CONTAINER -- > APP
-http://3.7.248.36:81/
 
 vim Dockerfile
 
@@ -464,7 +457,7 @@ docker build -t recharge:v1 .
 docker run -itd --name recharge -p 84:80 recharge:v1
 public-ip:84
 
-
+==================================================================================================================================================
 
 DOCKER COMPOSE:
 its a tool used to launch multiple conatiners.
