@@ -690,3 +690,14 @@ docker run -itd --name cont3 --cpus="0.5" --memory="500mb" ubuntu
 docker inspect cont3
 docker stats
 docker top cont3
+
+
+===============================================================================================================================================================
+DOCKER  PROJECT 
+
+
+
+
+
+
+
